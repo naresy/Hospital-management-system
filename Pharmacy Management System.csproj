@@ -1,0 +1,2518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3E335295-C7EF-4417-8D12-506B21316DFF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pharmacy_Management_System</RootNamespace>
+    <AssemblyName>Pharmacy Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Bhaskar\Desktop\Pharmacy Management System\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>92E5B1947E6A7A15B737B8890F3EA6D434BEDC75</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Pharmacy Management System_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ico_alpha_top100_16x16.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Excel.v9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.SqlServer.Management.Sdk.Sfc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SmoExtended, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.SqlServer.SmoExtended.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="backup_new.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="backup_new.Designer.cs">
+      <DependentUpon>backup_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Billing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billing.Designer.cs">
+      <DependentUpon>Billing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="change Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="change Password.Designer.cs">
+      <DependentUpon>change Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CLSCompliantAttribut.cs" />
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Diagnosis_Report_Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diagnosis_Report_Print.Designer.cs">
+      <DependentUpon>Diagnosis_Report_Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dignosis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dignosis.Designer.cs">
+      <DependentUpon>Dignosis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Echocardiography Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Echocardiography Report.Designer.cs">
+      <DependentUpon>Echocardiography Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor Prescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor Prescription.Designer.cs">
+      <DependentUpon>Doctor Prescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generate_Echocardiography_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generate_Echocardiography_Report.Designer.cs">
+      <DependentUpon>Generate_Echocardiography_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Medicines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medicines.Designer.cs">
+      <DependentUpon>Medicines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="new main form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="new main form.Designer.cs">
+      <DependentUpon>new main form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet1.cs">
+      <DependentUpon>Phm_dbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet100.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet100.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet101.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet101.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet102.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet102.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet103.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet103.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet104.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet104.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet105.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet105.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet106.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet106.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet107.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet107.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet108.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet108.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet109.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet109.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet110.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet110.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet111.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet111.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet112.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet112.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet113.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet113.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet114.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet114.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet115.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet115.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet116.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet116.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet117.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet117.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet118.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet118.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet119.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet119.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet120.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet120.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet121.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet121.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet122.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet122.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet123.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet123.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet124.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet124.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet125.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet125.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet126.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet126.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet127.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet127.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet128.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet128.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet26.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet27.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet28.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet29.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet30.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet32.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet32.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet33.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet33.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet34.cs">
+      <DependentUpon>Phm_dbDataSet34.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Phm_dbDataSet34.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet34.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet35.cs">
+      <DependentUpon>Phm_dbDataSet35.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Phm_dbDataSet35.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet35.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet36.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet36.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet37.cs">
+      <DependentUpon>Phm_dbDataSet37.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Phm_dbDataSet37.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet37.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet38.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet38.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet39.cs">
+      <DependentUpon>Phm_dbDataSet39.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Phm_dbDataSet39.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet39.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet40.cs">
+      <DependentUpon>Phm_dbDataSet40.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet40.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet40.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet41.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet41.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet42.cs">
+      <DependentUpon>Phm_dbDataSet42.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Phm_dbDataSet42.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet42.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet43.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet43.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet44.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet44.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet45.cs">
+      <DependentUpon>Phm_dbDataSet45.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Phm_dbDataSet45.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet45.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet46.cs">
+      <DependentUpon>Phm_dbDataSet46.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Phm_dbDataSet46.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet46.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet47.cs">
+      <DependentUpon>Phm_dbDataSet47.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Phm_dbDataSet47.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet47.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet48.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet48.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet49.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet49.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet50.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet50.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet51.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet51.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet52.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet52.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet53.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet53.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet54.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet54.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet55.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet55.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet56.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet56.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet57.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet57.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet58.cs">
+      <DependentUpon>Phm_dbDataSet58.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Phm_dbDataSet58.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet58.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet59.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet59.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet60.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet60.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet61.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet61.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet62.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet62.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet63.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet63.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet64.cs">
+      <DependentUpon>Phm_dbDataSet64.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Phm_dbDataSet64.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet64.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet65.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet65.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet66.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet66.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet671.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet671.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet68.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet68.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet691.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet691.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet701.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet701.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet71.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet71.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet72.cs">
+      <DependentUpon>Phm_dbDataSet72.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet72.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet72.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet73.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet73.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet74.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet74.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet75.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet75.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet76.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet76.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet77.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet77.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet78.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet78.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet79.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet79.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet80.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet80.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet81.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet81.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet82.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet82.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet83.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet83.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet84.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet84.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet85.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet85.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet86.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet86.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet87.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet87.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet88.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet88.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet89.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet89.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet90.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet90.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet91.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet91.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet92.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet92.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet93.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet93.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet94.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet94.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet95.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet95.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet96.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet96.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet97.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet97.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet98.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet98.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Phm_dbDataSet99.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Phm_dbDataSet99.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Prescription_Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prescription_Print.Designer.cs">
+      <DependentUpon>Prescription_Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="printbill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printbill.Designer.cs">
+      <DependentUpon>printbill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="standarddata.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>standarddata.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="stdata.cs">
+      <DependentUpon>stdata.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="stdata.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stdata.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="user_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_management.Designer.cs">
+      <DependentUpon>user_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_Diagnosis_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Diagnosis_Details.Designer.cs">
+      <DependentUpon>View_Diagnosis_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_Echocardiography_Report_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Echocardiography_Report_Details.Designer.cs">
+      <DependentUpon>View_Echocardiography_Report_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_Prescription_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Prescription_Details.Designer.cs">
+      <DependentUpon>View_Prescription_Details.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="backup_new.resx">
+      <DependentUpon>backup_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billing.resx">
+      <DependentUpon>Billing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="change Password.resx">
+      <DependentUpon>change Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diagnosis_Report_Print.resx">
+      <DependentUpon>Diagnosis_Report_Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dignosis.resx">
+      <DependentUpon>Dignosis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Echocardiography Report.resx">
+      <DependentUpon>Echocardiography Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor Prescription.resx">
+      <DependentUpon>Doctor Prescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generate_Echocardiography_Report.resx">
+      <DependentUpon>Generate_Echocardiography_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainbill.rdlc" />
+    <EmbeddedResource Include="Medicines.resx">
+      <DependentUpon>Medicines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new main form.resx">
+      <DependentUpon>new main form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prescription_Print.resx">
+      <DependentUpon>Prescription_Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printbill.resx">
+      <DependentUpon>printbill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Report5.rdlc" />
+    <EmbeddedResource Include="Report6.rdlc" />
+    <EmbeddedResource Include="subbill.rdlc" />
+    <EmbeddedResource Include="user_management.resx">
+      <DependentUpon>user_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Diagnosis_Details.resx">
+      <DependentUpon>View_Diagnosis_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Echocardiography_Report_Details.resx">
+      <DependentUpon>View_Echocardiography_Report_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Prescription_Details.resx">
+      <DependentUpon>View_Prescription_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Pharmacy Management System_TemporaryKey.pfx" />
+    <None Include="Phm_dbDataSet.xsc">
+      <DependentUpon>Phm_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet.xss">
+      <DependentUpon>Phm_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet1.xsc">
+      <DependentUpon>Phm_dbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet1.xss">
+      <DependentUpon>Phm_dbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet10.xsc">
+      <DependentUpon>Phm_dbDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet10.xss">
+      <DependentUpon>Phm_dbDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet100.xsc">
+      <DependentUpon>Phm_dbDataSet100.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet100.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet100.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet100.xss">
+      <DependentUpon>Phm_dbDataSet100.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet101.xsc">
+      <DependentUpon>Phm_dbDataSet101.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet101.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet101.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet101.xss">
+      <DependentUpon>Phm_dbDataSet101.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet102.xsc">
+      <DependentUpon>Phm_dbDataSet102.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet102.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet102.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet102.xss">
+      <DependentUpon>Phm_dbDataSet102.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet103.xsc">
+      <DependentUpon>Phm_dbDataSet103.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet103.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet103.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet103.xss">
+      <DependentUpon>Phm_dbDataSet103.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet104.xsc">
+      <DependentUpon>Phm_dbDataSet104.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet104.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet104.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet104.xss">
+      <DependentUpon>Phm_dbDataSet104.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet105.xsc">
+      <DependentUpon>Phm_dbDataSet105.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet105.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet105.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet105.xss">
+      <DependentUpon>Phm_dbDataSet105.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet106.xsc">
+      <DependentUpon>Phm_dbDataSet106.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet106.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet106.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet106.xss">
+      <DependentUpon>Phm_dbDataSet106.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet107.xsc">
+      <DependentUpon>Phm_dbDataSet107.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet107.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet107.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet107.xss">
+      <DependentUpon>Phm_dbDataSet107.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet108.xsc">
+      <DependentUpon>Phm_dbDataSet108.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet108.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet108.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet108.xss">
+      <DependentUpon>Phm_dbDataSet108.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet109.xsc">
+      <DependentUpon>Phm_dbDataSet109.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet109.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet109.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet109.xss">
+      <DependentUpon>Phm_dbDataSet109.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet11.xsc">
+      <DependentUpon>Phm_dbDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet11.xss">
+      <DependentUpon>Phm_dbDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet110.xsc">
+      <DependentUpon>Phm_dbDataSet110.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet110.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet110.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet110.xss">
+      <DependentUpon>Phm_dbDataSet110.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet111.xsc">
+      <DependentUpon>Phm_dbDataSet111.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet111.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet111.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet111.xss">
+      <DependentUpon>Phm_dbDataSet111.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet112.xsc">
+      <DependentUpon>Phm_dbDataSet112.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet112.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet112.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet112.xss">
+      <DependentUpon>Phm_dbDataSet112.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet113.xsc">
+      <DependentUpon>Phm_dbDataSet113.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet113.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet113.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet113.xss">
+      <DependentUpon>Phm_dbDataSet113.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet114.xsc">
+      <DependentUpon>Phm_dbDataSet114.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet114.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet114.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet114.xss">
+      <DependentUpon>Phm_dbDataSet114.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet115.xsc">
+      <DependentUpon>Phm_dbDataSet115.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet115.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet115.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet115.xss">
+      <DependentUpon>Phm_dbDataSet115.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet116.xsc">
+      <DependentUpon>Phm_dbDataSet116.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet116.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet116.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet116.xss">
+      <DependentUpon>Phm_dbDataSet116.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet117.xsc">
+      <DependentUpon>Phm_dbDataSet117.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet117.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet117.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet117.xss">
+      <DependentUpon>Phm_dbDataSet117.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet118.xsc">
+      <DependentUpon>Phm_dbDataSet118.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet118.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet118.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet118.xss">
+      <DependentUpon>Phm_dbDataSet118.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet119.xsc">
+      <DependentUpon>Phm_dbDataSet119.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet119.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet119.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet119.xss">
+      <DependentUpon>Phm_dbDataSet119.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet12.xsc">
+      <DependentUpon>Phm_dbDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet12.xss">
+      <DependentUpon>Phm_dbDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet120.xsc">
+      <DependentUpon>Phm_dbDataSet120.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet120.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet120.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet120.xss">
+      <DependentUpon>Phm_dbDataSet120.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet121.xsc">
+      <DependentUpon>Phm_dbDataSet121.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet121.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet121.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet121.xss">
+      <DependentUpon>Phm_dbDataSet121.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet122.xsc">
+      <DependentUpon>Phm_dbDataSet122.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet122.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet122.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet122.xss">
+      <DependentUpon>Phm_dbDataSet122.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet123.xsc">
+      <DependentUpon>Phm_dbDataSet123.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet123.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet123.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet123.xss">
+      <DependentUpon>Phm_dbDataSet123.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet124.xsc">
+      <DependentUpon>Phm_dbDataSet124.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet124.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet124.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet124.xss">
+      <DependentUpon>Phm_dbDataSet124.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet125.xsc">
+      <DependentUpon>Phm_dbDataSet125.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet125.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet125.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet125.xss">
+      <DependentUpon>Phm_dbDataSet125.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet126.xsc">
+      <DependentUpon>Phm_dbDataSet126.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet126.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet126.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet126.xss">
+      <DependentUpon>Phm_dbDataSet126.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet127.xsc">
+      <DependentUpon>Phm_dbDataSet127.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet127.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet127.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet127.xss">
+      <DependentUpon>Phm_dbDataSet127.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet128.xsc">
+      <DependentUpon>Phm_dbDataSet128.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet128.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet128.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet128.xss">
+      <DependentUpon>Phm_dbDataSet128.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet13.xsc">
+      <DependentUpon>Phm_dbDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet13.xss">
+      <DependentUpon>Phm_dbDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet14.xsc">
+      <DependentUpon>Phm_dbDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet14.xss">
+      <DependentUpon>Phm_dbDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet15.xsc">
+      <DependentUpon>Phm_dbDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet15.xss">
+      <DependentUpon>Phm_dbDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet16.xsc">
+      <DependentUpon>Phm_dbDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet16.xss">
+      <DependentUpon>Phm_dbDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet17.xsc">
+      <DependentUpon>Phm_dbDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet17.xss">
+      <DependentUpon>Phm_dbDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet18.xsc">
+      <DependentUpon>Phm_dbDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet18.xss">
+      <DependentUpon>Phm_dbDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet19.xsc">
+      <DependentUpon>Phm_dbDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet19.xss">
+      <DependentUpon>Phm_dbDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet2.xsc">
+      <DependentUpon>Phm_dbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet2.xss">
+      <DependentUpon>Phm_dbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet20.xsc">
+      <DependentUpon>Phm_dbDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet20.xss">
+      <DependentUpon>Phm_dbDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet21.xsc">
+      <DependentUpon>Phm_dbDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet21.xss">
+      <DependentUpon>Phm_dbDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet22.xsc">
+      <DependentUpon>Phm_dbDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet22.xss">
+      <DependentUpon>Phm_dbDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet23.xsc">
+      <DependentUpon>Phm_dbDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet23.xss">
+      <DependentUpon>Phm_dbDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet24.xsc">
+      <DependentUpon>Phm_dbDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet24.xss">
+      <DependentUpon>Phm_dbDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet25.xsc">
+      <DependentUpon>Phm_dbDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet25.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet25.xss">
+      <DependentUpon>Phm_dbDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet26.xsc">
+      <DependentUpon>Phm_dbDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet26.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet26.xss">
+      <DependentUpon>Phm_dbDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet27.xsc">
+      <DependentUpon>Phm_dbDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet27.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet27.xss">
+      <DependentUpon>Phm_dbDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet28.xsc">
+      <DependentUpon>Phm_dbDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet28.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet28.xss">
+      <DependentUpon>Phm_dbDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet29.xsc">
+      <DependentUpon>Phm_dbDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet29.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet29.xss">
+      <DependentUpon>Phm_dbDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet3.xsc">
+      <DependentUpon>Phm_dbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet3.xss">
+      <DependentUpon>Phm_dbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet30.xsc">
+      <DependentUpon>Phm_dbDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet30.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet30.xss">
+      <DependentUpon>Phm_dbDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet31.xsc">
+      <DependentUpon>Phm_dbDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet31.xss">
+      <DependentUpon>Phm_dbDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet32.xsc">
+      <DependentUpon>Phm_dbDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet32.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet32.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet32.xss">
+      <DependentUpon>Phm_dbDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet33.xsc">
+      <DependentUpon>Phm_dbDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet33.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet33.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet33.xss">
+      <DependentUpon>Phm_dbDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet34.xsc">
+      <DependentUpon>Phm_dbDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet34.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet34.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet34.xss">
+      <DependentUpon>Phm_dbDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet35.xsc">
+      <DependentUpon>Phm_dbDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet35.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet35.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet35.xss">
+      <DependentUpon>Phm_dbDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet36.xsc">
+      <DependentUpon>Phm_dbDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet36.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet36.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet36.xss">
+      <DependentUpon>Phm_dbDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet37.xsc">
+      <DependentUpon>Phm_dbDataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet37.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet37.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet37.xss">
+      <DependentUpon>Phm_dbDataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet38.xsc">
+      <DependentUpon>Phm_dbDataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet38.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet38.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet38.xss">
+      <DependentUpon>Phm_dbDataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet39.xsc">
+      <DependentUpon>Phm_dbDataSet39.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet39.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet39.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet39.xss">
+      <DependentUpon>Phm_dbDataSet39.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet4.xsc">
+      <DependentUpon>Phm_dbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet4.xss">
+      <DependentUpon>Phm_dbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet40.xsc">
+      <DependentUpon>Phm_dbDataSet40.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet40.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet40.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet40.xss">
+      <DependentUpon>Phm_dbDataSet40.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet41.xsc">
+      <DependentUpon>Phm_dbDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet41.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet41.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet41.xss">
+      <DependentUpon>Phm_dbDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet42.xsc">
+      <DependentUpon>Phm_dbDataSet42.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet42.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet42.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet42.xss">
+      <DependentUpon>Phm_dbDataSet42.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet43.xsc">
+      <DependentUpon>Phm_dbDataSet43.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet43.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet43.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet43.xss">
+      <DependentUpon>Phm_dbDataSet43.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet44.xsc">
+      <DependentUpon>Phm_dbDataSet44.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet44.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet44.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet44.xss">
+      <DependentUpon>Phm_dbDataSet44.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet45.xsc">
+      <DependentUpon>Phm_dbDataSet45.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet45.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet45.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet45.xss">
+      <DependentUpon>Phm_dbDataSet45.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet46.xsc">
+      <DependentUpon>Phm_dbDataSet46.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet46.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet46.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet46.xss">
+      <DependentUpon>Phm_dbDataSet46.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet47.xsc">
+      <DependentUpon>Phm_dbDataSet47.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet47.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet47.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet47.xss">
+      <DependentUpon>Phm_dbDataSet47.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet48.xsc">
+      <DependentUpon>Phm_dbDataSet48.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet48.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet48.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet48.xss">
+      <DependentUpon>Phm_dbDataSet48.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet49.xsc">
+      <DependentUpon>Phm_dbDataSet49.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet49.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet49.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet49.xss">
+      <DependentUpon>Phm_dbDataSet49.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet5.xsc">
+      <DependentUpon>Phm_dbDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet5.xss">
+      <DependentUpon>Phm_dbDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet50.xsc">
+      <DependentUpon>Phm_dbDataSet50.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet50.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet50.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet50.xss">
+      <DependentUpon>Phm_dbDataSet50.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet51.xsc">
+      <DependentUpon>Phm_dbDataSet51.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet51.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet51.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet51.xss">
+      <DependentUpon>Phm_dbDataSet51.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet52.xsc">
+      <DependentUpon>Phm_dbDataSet52.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet52.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet52.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet52.xss">
+      <DependentUpon>Phm_dbDataSet52.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet53.xsc">
+      <DependentUpon>Phm_dbDataSet53.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet53.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet53.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet53.xss">
+      <DependentUpon>Phm_dbDataSet53.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet54.xsc">
+      <DependentUpon>Phm_dbDataSet54.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet54.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet54.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet54.xss">
+      <DependentUpon>Phm_dbDataSet54.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet55.xsc">
+      <DependentUpon>Phm_dbDataSet55.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet55.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet55.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet55.xss">
+      <DependentUpon>Phm_dbDataSet55.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet56.xsc">
+      <DependentUpon>Phm_dbDataSet56.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet56.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet56.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet56.xss">
+      <DependentUpon>Phm_dbDataSet56.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet57.xsc">
+      <DependentUpon>Phm_dbDataSet57.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet57.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet57.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet57.xss">
+      <DependentUpon>Phm_dbDataSet57.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet58.xsc">
+      <DependentUpon>Phm_dbDataSet58.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet58.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet58.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet58.xss">
+      <DependentUpon>Phm_dbDataSet58.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet59.xsc">
+      <DependentUpon>Phm_dbDataSet59.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet59.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet59.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet59.xss">
+      <DependentUpon>Phm_dbDataSet59.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet6.xsc">
+      <DependentUpon>Phm_dbDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet6.xss">
+      <DependentUpon>Phm_dbDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet60.xsc">
+      <DependentUpon>Phm_dbDataSet60.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet60.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet60.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet60.xss">
+      <DependentUpon>Phm_dbDataSet60.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet61.xsc">
+      <DependentUpon>Phm_dbDataSet61.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet61.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet61.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet61.xss">
+      <DependentUpon>Phm_dbDataSet61.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet62.xsc">
+      <DependentUpon>Phm_dbDataSet62.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet62.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet62.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet62.xss">
+      <DependentUpon>Phm_dbDataSet62.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet63.xsc">
+      <DependentUpon>Phm_dbDataSet63.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet63.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet63.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Phm_dbDataSet63.xss">
+      <DependentUpon>Phm_dbDataSet63.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet64.xsc">
+      <DependentUpon>Phm_dbDataSet64.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet64.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet64.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet64.xss">
+      <DependentUpon>Phm_dbDataSet64.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet65.xsc">
+      <DependentUpon>Phm_dbDataSet65.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet65.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet65.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet65.xss">
+      <DependentUpon>Phm_dbDataSet65.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet66.xsc">
+      <DependentUpon>Phm_dbDataSet66.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet66.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet66.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet66.xss">
+      <DependentUpon>Phm_dbDataSet66.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet671.xsc">
+      <DependentUpon>Phm_dbDataSet671.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet671.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet671.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet671.xss">
+      <DependentUpon>Phm_dbDataSet671.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet68.xsc">
+      <DependentUpon>Phm_dbDataSet68.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet68.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet68.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet68.xss">
+      <DependentUpon>Phm_dbDataSet68.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet691.xsc">
+      <DependentUpon>Phm_dbDataSet691.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet691.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet691.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet691.xss">
+      <DependentUpon>Phm_dbDataSet691.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet7.xsc">
+      <DependentUpon>Phm_dbDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet7.xss">
+      <DependentUpon>Phm_dbDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet701.xsc">
+      <DependentUpon>Phm_dbDataSet701.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet701.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet701.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet701.xss">
+      <DependentUpon>Phm_dbDataSet701.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet71.xsc">
+      <DependentUpon>Phm_dbDataSet71.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet71.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet71.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet71.xss">
+      <DependentUpon>Phm_dbDataSet71.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet72.xsc">
+      <DependentUpon>Phm_dbDataSet72.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet72.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet72.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet72.xss">
+      <DependentUpon>Phm_dbDataSet72.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet73.xsc">
+      <DependentUpon>Phm_dbDataSet73.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet73.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet73.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet73.xss">
+      <DependentUpon>Phm_dbDataSet73.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet74.xsc">
+      <DependentUpon>Phm_dbDataSet74.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet74.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet74.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet74.xss">
+      <DependentUpon>Phm_dbDataSet74.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet75.xsc">
+      <DependentUpon>Phm_dbDataSet75.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet75.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet75.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet75.xss">
+      <DependentUpon>Phm_dbDataSet75.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet76.xsc">
+      <DependentUpon>Phm_dbDataSet76.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet76.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet76.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet76.xss">
+      <DependentUpon>Phm_dbDataSet76.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet77.xsc">
+      <DependentUpon>Phm_dbDataSet77.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet77.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet77.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet77.xss">
+      <DependentUpon>Phm_dbDataSet77.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet78.xsc">
+      <DependentUpon>Phm_dbDataSet78.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet78.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet78.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet78.xss">
+      <DependentUpon>Phm_dbDataSet78.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet79.xsc">
+      <DependentUpon>Phm_dbDataSet79.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet79.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet79.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet79.xss">
+      <DependentUpon>Phm_dbDataSet79.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet8.xsc">
+      <DependentUpon>Phm_dbDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet8.xss">
+      <DependentUpon>Phm_dbDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet80.xsc">
+      <DependentUpon>Phm_dbDataSet80.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet80.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet80.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet80.xss">
+      <DependentUpon>Phm_dbDataSet80.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet81.xsc">
+      <DependentUpon>Phm_dbDataSet81.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet81.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet81.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet81.xss">
+      <DependentUpon>Phm_dbDataSet81.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet82.xsc">
+      <DependentUpon>Phm_dbDataSet82.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet82.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet82.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet82.xss">
+      <DependentUpon>Phm_dbDataSet82.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet83.xsc">
+      <DependentUpon>Phm_dbDataSet83.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet83.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet83.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet83.xss">
+      <DependentUpon>Phm_dbDataSet83.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet84.xsc">
+      <DependentUpon>Phm_dbDataSet84.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet84.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet84.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet84.xss">
+      <DependentUpon>Phm_dbDataSet84.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet85.xsc">
+      <DependentUpon>Phm_dbDataSet85.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet85.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet85.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet85.xss">
+      <DependentUpon>Phm_dbDataSet85.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet86.xsc">
+      <DependentUpon>Phm_dbDataSet86.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet86.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet86.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet86.xss">
+      <DependentUpon>Phm_dbDataSet86.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet87.xsc">
+      <DependentUpon>Phm_dbDataSet87.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet87.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet87.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet87.xss">
+      <DependentUpon>Phm_dbDataSet87.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet88.xsc">
+      <DependentUpon>Phm_dbDataSet88.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet88.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet88.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet88.xss">
+      <DependentUpon>Phm_dbDataSet88.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet89.xsc">
+      <DependentUpon>Phm_dbDataSet89.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet89.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet89.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet89.xss">
+      <DependentUpon>Phm_dbDataSet89.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet9.xsc">
+      <DependentUpon>Phm_dbDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet9.xss">
+      <DependentUpon>Phm_dbDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet90.xsc">
+      <DependentUpon>Phm_dbDataSet90.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet90.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet90.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet90.xss">
+      <DependentUpon>Phm_dbDataSet90.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet91.xsc">
+      <DependentUpon>Phm_dbDataSet91.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet91.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet91.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet91.xss">
+      <DependentUpon>Phm_dbDataSet91.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet92.xsc">
+      <DependentUpon>Phm_dbDataSet92.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet92.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet92.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet92.xss">
+      <DependentUpon>Phm_dbDataSet92.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet93.xsc">
+      <DependentUpon>Phm_dbDataSet93.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet93.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet93.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet93.xss">
+      <DependentUpon>Phm_dbDataSet93.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet94.xsc">
+      <DependentUpon>Phm_dbDataSet94.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet94.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet94.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet94.xss">
+      <DependentUpon>Phm_dbDataSet94.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet95.xsc">
+      <DependentUpon>Phm_dbDataSet95.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet95.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet95.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet95.xss">
+      <DependentUpon>Phm_dbDataSet95.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet96.xsc">
+      <DependentUpon>Phm_dbDataSet96.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet96.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet96.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet96.xss">
+      <DependentUpon>Phm_dbDataSet96.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet97.xsc">
+      <DependentUpon>Phm_dbDataSet97.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet97.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet97.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet97.xss">
+      <DependentUpon>Phm_dbDataSet97.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet98.xsc">
+      <DependentUpon>Phm_dbDataSet98.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet98.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet98.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet98.xss">
+      <DependentUpon>Phm_dbDataSet98.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet99.xsc">
+      <DependentUpon>Phm_dbDataSet99.xsd</DependentUpon>
+    </None>
+    <None Include="Phm_dbDataSet99.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Phm_dbDataSet99.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Phm_dbDataSet99.xss">
+      <DependentUpon>Phm_dbDataSet99.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="standarddata.xsc">
+      <DependentUpon>standarddata.xsd</DependentUpon>
+    </None>
+    <None Include="standarddata.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>standarddata.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="standarddata.xss">
+      <DependentUpon>standarddata.xsd</DependentUpon>
+    </None>
+    <None Include="stdata.xsc">
+      <DependentUpon>stdata.xsd</DependentUpon>
+    </None>
+    <None Include="stdata.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>stdata.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="stdata.xss">
+      <DependentUpon>stdata.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P_FBSearchPlus_Md_Win_N.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ico_alpha_top100_16x16.ico" />
+    <None Include="Resources\Simple-Red-Free-Hospital-logo-Templates1.jpg" />
+    <None Include="Resources\Simple-Red-Free-Hospital-logo-Templates.jpg" />
+    <None Include="Resources\star.png" />
+    <None Include="Resources\star.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

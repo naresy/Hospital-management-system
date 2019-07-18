@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Phm_dbDataSet30" targetNamespace="http://tempuri.org/Phm_dbDataSet30.xsd" xmlns:mstns="http://tempuri.org/Phm_dbDataSet30.xsd" xmlns="http://tempuri.org/Phm_dbDataSet30.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Phm_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Phm_dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Pharmacy_Management_System.Properties.Settings.GlobalReference.Default.Phm_dbConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="doc_prescriptionTableAdapter" GeneratorDataComponentClassName="doc_prescriptionTableAdapter" Name="doc_prescription" UserDataComponentName="doc_prescriptionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Phm_dbConnectionString (Settings)" DbObjectName="Phm_db.dbo.doc_prescription" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT pname FROM dbo.doc_prescription</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="pname" DataSetColumn="pname" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Phm_dbDataSet30" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Phm_dbDataSet30" msprop:Generator_UserDSName="Phm_dbDataSet30">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="doc_prescription" msprop:Generator_TableClassName="doc_prescriptionDataTable" msprop:Generator_TableVarName="tabledoc_prescription" msprop:Generator_TablePropName="doc_prescription" msprop:Generator_RowDeletingName="doc_prescriptionRowDeleting" msprop:Generator_RowChangingName="doc_prescriptionRowChanging" msprop:Generator_RowEvHandlerName="doc_prescriptionRowChangeEventHandler" msprop:Generator_RowDeletedName="doc_prescriptionRowDeleted" msprop:Generator_UserTableName="doc_prescription" msprop:Generator_RowChangedName="doc_prescriptionRowChanged" msprop:Generator_RowEvArgName="doc_prescriptionRowChangeEvent" msprop:Generator_RowClassName="doc_prescriptionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pname" msprop:Generator_ColumnVarNameInTable="columnpname" msprop:Generator_ColumnPropNameInRow="pname" msprop:Generator_ColumnPropNameInTable="pnameColumn" msprop:Generator_UserColumnName="pname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

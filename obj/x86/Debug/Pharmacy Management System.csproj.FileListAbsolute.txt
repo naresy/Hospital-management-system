@@ -1,0 +1,256 @@
+c:\users\bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Echocardiography_Report.resources
+c:\users\bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Properties.Resources.resources
+c:\users\bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.csproj.GenerateResource.Cache
+c:\users\bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe
+c:\users\bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\bin\Debug\Pharmacy Management System.pdb
+c:\users\bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.exe
+c:\users\bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.pdb
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.config
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\RdlCompile.cache
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.new_main_form.resources
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.user_management.resources
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Login.resources
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.change_Password.resources
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Janta_medical.resources
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Dignosis.resources
+C:\Users\Bhaskar\Documents\Visual Studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.manifest
+C:\Users\Bhaskar\Documents\Visual Studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\bin\Debug\Pharmacy Management System.application
+C:\Users\Bhaskar\Documents\Visual Studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.exe.manifest
+C:\Users\Bhaskar\Documents\Visual Studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.application
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.View_Echocardiography_Report_Details.resources
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.View_Diagnosis_Details.resources
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\bin\Debug\office.dll
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\bin\Debug\Microsoft.Office.Interop.SmartTag.dll
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\bin\Debug\office.xml
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.View_Prescription_Details.resources
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Generate_Echocardiography_Report.resources
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Medicines.resources
+C:\Users\Bhaskar\Documents\Visual Studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Diagnosis_Report_Print.resources
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.prescription_print.resources
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.backup_new.resources
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.About.resources
+C:\Users\Bhaskar\documents\visual studio 2010\Projects\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.csprojResolveAssemblyReference.cache
+E:\c# code\Pharmacy Management System\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.config
+E:\c# code\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.exe
+E:\c# code\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.pdb
+P:\my secret java\Pharmacy Management System\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.config
+P:\my secret java\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.exe
+P:\my secret java\Pharmacy Management System\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.pdb
+C:\Users\user\Desktop\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.config
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.exe
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.pdb
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.About.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.backup_new.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Billing.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.change_Password.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Diagnosis_Report_Print.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Dignosis.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Echocardiography_Report.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Janta_medical.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Generate_Echocardiography_Report.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Login.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Medicines.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.new_main_form.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Prescription_Print.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Properties.Resources.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.user_management.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.View_Diagnosis_Details.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.View_Echocardiography_Report_Details.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.View_Prescription_Details.resources
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\RdlCompile.cache
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\RdlCompile.compiled
+C:\Users\user\Desktop\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.manifest
+C:\Users\user\Desktop\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.application
+C:\Users\user\Desktop\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe
+C:\Users\user\Desktop\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.pdb
+C:\Users\user\Desktop\safe project\Pharmacy Management System\bin\Debug\office.dll
+C:\Users\user\Desktop\safe project\Pharmacy Management System\bin\Debug\Microsoft.Office.Interop.SmartTag.dll
+C:\Users\user\Desktop\safe project\Pharmacy Management System\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\user\Desktop\safe project\Pharmacy Management System\bin\Debug\office.xml
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.exe.manifest
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.application
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.config
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.exe
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.pdb
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.manifest
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.application
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.pdb
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\Microsoft.Office.Tools.Excel.v9.0.dll
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\Microsoft.Office.Tools.v9.0.dll
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\Microsoft.Office.Tools.Common.v9.0.dll
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.v9.0.dll
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\office.dll
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\Microsoft.Office.Interop.SmartTag.dll
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\Microsoft.Office.Tools.Excel.v9.0.xml
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\Microsoft.Office.Tools.v9.0.xml
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\Microsoft.Office.Tools.Common.v9.0.xml
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.v9.0.xml
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\bin\Debug\office.xml
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.csprojResolveAssemblyReference.cache
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.About.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.backup_new.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Billing.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.change_Password.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Diagnosis_Report_Print.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Dignosis.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Echocardiography_Report.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Janta_medical.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Generate_Echocardiography_Report.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Login.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Medicines.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.new_main_form.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Prescription_Print.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Properties.Resources.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.user_management.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.View_Diagnosis_Details.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.View_Echocardiography_Report_Details.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.View_Prescription_Details.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.csproj.GenerateResource.Cache
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\RdlCompile.cache
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.exe.manifest
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.application
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.printbill.resources
+C:\Users\Bhaskar Bhatt\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.printbill.resources
+D:\8th final project\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.config
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.exe
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.pdb
+D:\8th final project\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.manifest
+D:\8th final project\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.application
+D:\8th final project\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe
+D:\8th final project\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.pdb
+D:\8th final project\safe project\Pharmacy Management System\bin\Debug\office.dll
+D:\8th final project\safe project\Pharmacy Management System\bin\Debug\Microsoft.Office.Interop.SmartTag.dll
+D:\8th final project\safe project\Pharmacy Management System\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\8th final project\safe project\Pharmacy Management System\bin\Debug\office.xml
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.csprojResolveAssemblyReference.cache
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.About.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.backup_new.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Billing.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.change_Password.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Diagnosis_Report_Print.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Dignosis.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Echocardiography_Report.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Janta_medical.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Generate_Echocardiography_Report.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Login.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Medicines.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.new_main_form.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Prescription_Print.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.printbill.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Properties.Resources.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.user_management.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.View_Diagnosis_Details.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.View_Echocardiography_Report_Details.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.View_Prescription_Details.resources
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.csproj.GenerateResource.Cache
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\RdlCompile.cache
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\RdlCompile.compiled
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.exe.manifest
+D:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.application
+P:\8th final project\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.config
+P:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.exe
+P:\8th final project\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.pdb
+C:\Users\user\Desktop\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.csprojResolveAssemblyReference.cache
+D:\safe project\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.config
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.exe
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.pdb
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.csprojResolveAssemblyReference.cache
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.About.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.backup_new.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Billing.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.change_Password.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Diagnosis_Report_Print.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Dignosis.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Echocardiography_Report.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Janta_medical.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Generate_Echocardiography_Report.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Login.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Medicines.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.new_main_form.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Prescription_Print.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.printbill.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.Properties.Resources.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.user_management.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.View_Diagnosis_Details.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.View_Echocardiography_Report_Details.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy_Management_System.View_Prescription_Details.resources
+D:\safe project\Pharmacy Management System\obj\x86\Debug\Pharmacy Management System.csproj.GenerateResource.Cache
+D:\safe project\Pharmacy Management System\obj\x86\Debug\RdlCompile.cache
+D:\safe project\Pharmacy Management System\obj\x86\Debug\RdlCompile.compiled
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy Management System.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.About.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.backup_new.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Billing.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.change_Password.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Diagnosis_Report_Print.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Dignosis.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Echocardiography_Report.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Janta_medical.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Generate_Echocardiography_Report.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Login.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Medicines.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.new_main_form.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Prescription_Print.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.printbill.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Properties.Resources.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.user_management.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.View_Diagnosis_Details.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.View_Echocardiography_Report_Details.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.View_Prescription_Details.resources
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy Management System.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy Management System.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\naresh\hamro hospital\obj\x86\Debug\Pharmacy Management System.exe
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.About.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.backup_new.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Billing.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.change_Password.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Diagnosis_Report_Print.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Dignosis.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Echocardiography_Report.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Janta_medical.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Generate_Echocardiography_Report.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Login.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Medicines.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.new_main_form.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Prescription_Print.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.printbill.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Properties.Resources.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.user_management.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.View_Diagnosis_Details.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.View_Echocardiography_Report_Details.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.View_Prescription_Details.resources
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy Management System.csproj.GenerateResource.Cache
+D:\4th sem\hamro hospital\obj\x86\Debug\RdlCompile.cache
+D:\4th sem\hamro hospital\obj\x86\Debug\RdlCompile.compiled
+D:\4th sem\hamro hospital\bin\Debug\Pharmacy Management System.exe.config
+D:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy Management System.csprojResolveAssemblyReference.cache
+F:\4th sem\hamro hospital\bin\Debug\Pharmacy Management System.exe.config
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy Management System.csprojResolveAssemblyReference.cache
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.About.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.backup_new.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Billing.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.change_Password.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Diagnosis_Report_Print.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Dignosis.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Echocardiography_Report.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Janta_medical.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Generate_Echocardiography_Report.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Login.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Medicines.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.new_main_form.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Prescription_Print.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.printbill.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.Properties.Resources.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.user_management.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.View_Diagnosis_Details.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.View_Echocardiography_Report_Details.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy_Management_System.View_Prescription_Details.resources
+F:\4th sem\hamro hospital\obj\x86\Debug\Pharmacy Management System.csproj.GenerateResource.Cache
+F:\4th sem\hamro hospital\obj\x86\Debug\RdlCompile.cache
+F:\4th sem\hamro hospital\obj\x86\Debug\RdlCompile.compiled
